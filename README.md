@@ -17,6 +17,9 @@ https://drive.google.com/file/d/1_-rX-mzXluzOFgTRp4SbYGnhmaolVv_w/view?usp=drive
 Presentation 
 https://docs.google.com/presentation/d/1_qLdQy9MfK12lRzDjRQ1Lj9xg6_n9aCh/edit?usp=drivesdk&ouid=108540189763313827536&rtpof=true&sd=true
 
+Project Report 
+https://drive.google.com/file/d/1_tHe3A02K29L7WAaGnZTl8IDaVapUk1C/view?usp=drivesdk
+
 Technologies Used
 HTML, CSS, JavaScript, React.js
 
