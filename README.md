@@ -1,73 +1,43 @@
-# Welcome to your Lovable project
+YUV_RAJ_SINGH_YADAV_Template-Garden
+Template Garden
+Project Title
+Template Garden
 
-## Project info
+Team Members
+Yuv Raj Singh Yadav
+Rose Ali
+Shrishti Pathak
 
-**URL**: https://lovable.dev/projects/e6f492b2-1374-4aa9-b59c-f2d2f9634753
+Short Project Description
+Template Garden is a web-based application that helps businesses and individuals create websites from existing templates. It allows users to create, change, and manage websites, ensuring efficiency and accuracy in website creation.
 
-## How can I edit this code?
+Link to Video Explanation
+https://drive.google.com/file/d/1_-rX-mzXluzOFgTRp4SbYGnhmaolVv_w/view?usp=drivesdk
 
-There are several ways of editing your application.
+Technologies Used
+HTML, CSS, JavaScript, React.js
 
-**Use Lovable**
+Node.js
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/e6f492b2-1374-4aa9-b59c-f2d2f9634753) and start prompting.
+MongoDB (for the database)
 
-Changes made via Lovable will be committed automatically to this repo.
+Steps to Setup and Run the Project
+bash
+Copy
+Edit
+### 1. Initialize a new Node.js project
+npm init -y
 
-**Use your preferred IDE**
+### 2. Install required dependencies
+npm install express mongoose cors body-parser react react-dom
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+### 3. Set up the database
+# Make sure MongoDB is installed and running locally or use a cloud service like MongoDB Atlas.
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+### 4. Run the server
+node server/server.js
 
-Follow these steps:
-
-```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
-
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
-
-# Step 3: Install the necessary dependencies.
-npm i
-
-# Step 4: Start the development server with auto-reloading and an instant preview.
-npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
-## How can I deploy this project?
-
-Simply open [Lovable](https://lovable.dev/projects/e6f492b2-1374-4aa9-b59c-f2d2f9634753) and click on Share -> Publish.
-
-## Can I connect a custom domain to my Lovable project?
-
-Yes, you can!
-
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
-
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+### 5. Run the client
+cd client
+npm install
+npm start
