@@ -389,7 +389,7 @@ const TemplateEditPage = () => {
                 <div className="relative">
                   <Textarea
                     className="h-96 font-mono text-sm"
-                    placeholder="<!DOCTYPE html>
+                    placeholder={`<!DOCTYPE html>
 <html>
 <head>
     <title>Template</title>
@@ -418,7 +418,7 @@ const TemplateEditPage = () => {
     </footer>
     <script src='script.js'></script>
 </body>
-</html>"
+</html>`}
                   />
                 </div>
                 <div className="flex justify-end">
@@ -440,7 +440,7 @@ const TemplateEditPage = () => {
                 <div className="relative">
                   <Textarea
                     className="h-96 font-mono text-sm"
-                    placeholder="/* Main Styles */
+                    placeholder={`/* Main Styles */
 body {
     font-family: 'Inter', sans-serif;
     margin: 0;
@@ -482,7 +482,7 @@ footer {
     text-align: center;
     background-color: #f8f8f8;
     margin-top: 2rem;
-}"
+}`}
                   />
                 </div>
                 <div className="flex justify-end">
@@ -504,7 +504,7 @@ footer {
                 <div className="relative">
                   <Textarea
                     className="h-96 font-mono text-sm"
-                    placeholder="// Main JavaScript file for the template
+                    placeholder={`// Main JavaScript file for the template
 document.addEventListener('DOMContentLoaded', function() {
     console.log('Template loaded!');
     
@@ -519,7 +519,7 @@ document.addEventListener('DOMContentLoaded', function() {
     }
     
     // Example: Smooth scrolling for anchor links
-    document.querySelectorAll('a[href^=\"#\"]').forEach(anchor => {
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function(e) {
             e.preventDefault();
             
@@ -533,7 +533,7 @@ document.addEventListener('DOMContentLoaded', function() {
             }
         });
     });
-});"
+});`}
                   />
                 </div>
                 <div className="flex justify-end">
