@@ -14,6 +14,9 @@ Template Garden is a web-based application that helps businesses and individuals
 Link to Video Explanation
 https://drive.google.com/file/d/1_-rX-mzXluzOFgTRp4SbYGnhmaolVv_w/view?usp=drivesdk
 
+Presentation 
+https://docs.google.com/presentation/d/1_qLdQy9MfK12lRzDjRQ1Lj9xg6_n9aCh/edit?usp=drivesdk&ouid=108540189763313827536&rtpof=true&sd=true
+
 Technologies Used
 HTML, CSS, JavaScript, React.js
 
